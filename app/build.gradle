@@ -20,5 +20,7 @@ android {
 }
 
 dependencies {
+	compile 'com.android.support:support-v4:+'
     compile fileTree(dir: 'libs', include: ['*.jar'])
+	compile 'com.github.ybq:Android-SpinKit:1.1.0'
 }
